@@ -1,3 +1,13 @@
+.logo {
+  font-size: 64px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo-container {
+  width: 200px;
+  text-align: center;
+}
+
 .nav-item {
   font-family: 'Montserrat', sans-serif;
 }
