@@ -1,0 +1,9 @@
+.background-image {
+  background-image: url("../../images/homepage.jpg");
+  background-color: white;
+  height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  background-size: cover;
+  filter: brightness(70%) blur(1px);
+}
