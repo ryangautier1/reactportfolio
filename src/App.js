@@ -1,12 +1,18 @@
 import React from 'react';
-
-import HomePage from './pages/HomePage';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
-    <div>
-      <HomePage/>
-    </div>
+    <Router>
+      <div>
+        <Navbar/>
+        <Route exact path="/" component={Homepage}/>
+         <Route exact path="/reactportfolio" component={Homepage}/>
+        
+      </div>
+    </Router>
   );
 }
 
