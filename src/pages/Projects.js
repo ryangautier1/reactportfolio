@@ -1,11 +1,10 @@
 import React from 'react';
-import HomeBackground from '../components/HomeBackground';
+import ProjectBackground from '../components/ProjectBackground';
 import HomeContent from '../components/HomeContent';
 
 function Projects() {
   return (
     <div>
-      <HomeBackground />
       <HomeContent />
     </div>
   )

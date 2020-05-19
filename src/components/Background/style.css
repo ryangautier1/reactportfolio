@@ -1,6 +1,6 @@
-.background-image {
+.home-background {
   background-image: url("../../images/homepage.jpg");
-  background-color: white;
+  background-color: #333;
   height: 100vh;
   min-width: 100%;
   overflow: hidden;
