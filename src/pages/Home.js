@@ -2,7 +2,7 @@ import React from 'react';
 import HomeBackground from '../components/HomeBackground';
 import HomeContent from '../components/HomeContent';
 
-function HomePage() {
+function Home() {
   return (
     <div>
       <HomeBackground />
@@ -11,4 +11,4 @@ function HomePage() {
   )
 }
 
-export default HomePage;
+export default Home;

@@ -1,16 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Homepage from './pages/Homepage';
+import Home from './pages/Home';
+import Projects from './pages/Projects'
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar/>
-        <Route exact path="/" component={Homepage}/>
-         <Route exact path="/reactportfolio" component={Homepage}/>
-        
+        <Switch>
+          <Route exact path="/" component={Home}>
+            <Home />
+          </Route>
+          <Route exact path="/projects" component={Projects}>
+            <Projects />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
