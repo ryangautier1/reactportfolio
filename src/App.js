@@ -1,14 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import HomeBackground from './components/HomeBackground';
-import HomeContent from './components/HomeContent';
+
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <div>
-    <HomeBackground />
-    <Navbar />
-    <HomeContent />
+      <HomePage/>
     </div>
   );
 }
