@@ -1,8 +1,0 @@
-.background-image {
-  background-image: url("../../images/projectpage.jpg");
-  background-color: white;
-  height: 100vh;
-  min-width: 100%;
-  overflow: hidden;
-  background-size: cover;
-}

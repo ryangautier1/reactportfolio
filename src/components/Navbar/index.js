@@ -14,7 +14,7 @@ function Navbar() {
         <div className="mx-3 cursor-pointer block text-2xl nav-item"><Link to="/">Home</Link></div>
         <div className="mx-3 cursor-pointer block text-2xl nav-item"><Link to="/about">About</Link></div>
         <div className="mx-3 cursor-pointer block text-2xl nav-item"><Link to="/projects">Projects</Link></div>
-        <div className="mx-3 cursor-pointer block text-2xl nav-item">Contact</div>
+        <div className="mx-3 cursor-pointer block text-2xl nav-item"><Link to="/contact">Contact</Link></div>
       </nav>
     </div>
   );

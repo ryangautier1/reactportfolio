@@ -24,3 +24,12 @@
   overflow: hidden;
   background-size: cover;
 }
+
+.contact-background {
+  background-image: url("../../images/contactpage.jpg");
+  background-color: #333;
+  height: 100vh;
+  min-width: 100%;
+  overflow: hidden;
+  background-size: cover;
+}
