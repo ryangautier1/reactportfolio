@@ -6,3 +6,12 @@
   overflow: hidden;
   background-size: cover;
 }
+
+.project-background {
+  background-image: url("../../images/projectpage.jpg");
+  background-color: #333;
+  height: 100vh;
+  min-width: 100%;
+  overflow: hidden;
+  background-size: cover;
+}
