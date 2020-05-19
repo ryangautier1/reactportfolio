@@ -15,3 +15,12 @@
   overflow: hidden;
   background-size: cover;
 }
+
+.about-background {
+  background-image: url("../../images/aboutpage.jpg");
+  background-color: #333;
+  height: 100vh;
+  min-width: 100%;
+  overflow: hidden;
+  background-size: cover;
+}

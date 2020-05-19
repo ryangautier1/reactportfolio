@@ -12,7 +12,7 @@ function Navbar() {
       </div>
       <nav className="flex flex-col z-10 absolute items-center justify-between text-gray-100">
         <div className="mx-3 cursor-pointer block text-2xl nav-item"><Link to="/">Home</Link></div>
-        <div className="mx-3 cursor-pointer block text-2xl nav-item">About</div>
+        <div className="mx-3 cursor-pointer block text-2xl nav-item"><Link to="/about">About</Link></div>
         <div className="mx-3 cursor-pointer block text-2xl nav-item"><Link to="/projects">Projects</Link></div>
         <div className="mx-3 cursor-pointer block text-2xl nav-item">Contact</div>
       </nav>
