@@ -1,5 +1,9 @@
 .home-content {
   width: calc(100vw - 200px);
   margin-left: 200px;
-  
+  height: 100vh;
+}
+
+.home-text {
+  width: 70%;
 }

@@ -3,8 +3,8 @@ import "./style.css";
 
 function HomeContent() {
   return (
-    <div className="relative flex home-content">
-      <div className="text-gray-100 items-center justify-center text-3xl">
+    <div className="relative flex home-content items-center justify-center">
+      <div className="text-gray-100 text-5xl text-center home-text">
         My name is Ryan Gautier, and I am a Web Developer.
       </div>
     </div>
