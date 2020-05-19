@@ -10,6 +10,13 @@
 
 .nav-item {
   font-family: 'Montserrat', sans-serif;
+  border-left: 8px solid transparent;
+  width: 120px;
+  text-align: center;
+}
+
+.nav-item:hover {
+  border-left: 8px solid #f7fafc;
 }
 
 nav {
