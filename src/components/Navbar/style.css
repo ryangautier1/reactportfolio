@@ -24,3 +24,22 @@ nav {
   padding: 18rem 0;
   padding-left: 1rem;
 }
+
+@media screen and (max-width: 640px) {
+  nav {
+    padding: 50px 0 0 0;
+    padding-left: 0;
+    height: unset;
+  }
+  .nav-item {
+    border-left: 0px;
+    border-bottom: 4px solid transparent;
+    width: unset;
+    padding: 0 10px;
+  }
+  .nav-item:hover {
+    border-left: 0px;
+    border-bottom: 4px solid #f7fafc;
+
+  }
+}

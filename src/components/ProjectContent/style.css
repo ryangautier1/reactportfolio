@@ -1,7 +1,7 @@
 .project-slider {
   width: calc(100vw - 160px);
   margin-left: 160px;
-  height: revert;
+  height: unset;
 }
 
 .project-page {
