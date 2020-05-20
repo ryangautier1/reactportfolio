@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import HomeContent from '../components/HomeContent';
+import ProjectCard from '../components/ProjectCard';
 import "../components/Background/style.css";
 
 function Projects() {
@@ -14,7 +14,7 @@ function Projects() {
 
   return (
     <div>
-      <HomeContent />
+      <ProjectCard />
     </div>
   )
 }
