@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import HomeContent from '../components/HomeContent';
+import AboutContent from '../components/AboutContent';
 import "../components/Background/style.css";
 
 function About() {
@@ -14,7 +14,7 @@ function About() {
 
   return (
     <div>
-      <HomeContent />
+      <AboutContent />
     </div>
   )
 }

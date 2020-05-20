@@ -1,10 +1,15 @@
-.home-content {
+.about-content {
   width: calc(100vw - 160px);
   margin-left: 160px;
   height: 100vh;
 }
 
-.home-text {
+.about-text {
   width: 70%;
   font-family: 'Muli', sans-serif;
+}
+
+.picture-me {
+  height: 250px;
+  width: 250px;
 }
