@@ -3,7 +3,7 @@ import "./style.css";
 
 function ProjectCard(props) {
   return (
-      <div className="project-card">
+      <div className="project-card mx-8">
         <a href={props.deployed} target="_blank" rel="noopener noreferrer">
           <div className="w-full px-3 pb-3 bg-gray-300 rounded-lg">
             <img src={props.image} alt={props.alt} />
