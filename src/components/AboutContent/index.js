@@ -4,12 +4,22 @@ import pic from "../../images/ryanpicturesquare.png"
 
 function AboutContent() {
   return (
-    <div className="relative flex flex-col about-content items-center justify-center">
+    <div className="relative flex flex-col about-content items-center justify-center about-page">
       <div>
-        <img src={pic} alt="Ryan Gautier" className="rounded-full picture-me" />
+        <img src={pic} alt="Ryan Gautier" className="rounded-full picture-me mb-5" />
       </div>
-      <div className="text-gray-100 text-5xl text-center about-text">
-        About meeeeeeee
+      <div className="text-gray-100 text-lg text-center about-text">
+        I am a web developer based in Austin, TX.
+        My passion is problem solving, which is why I love what I do.
+        <br /><br />
+        My skillset includes
+        <span className="skills text-xl"> HTML, CSS, CSS Frameworks, JavaScript, jQuery, Node, Express, MySQL, 
+        MongoDB, and React.</span>
+        <br /><br />
+        I enjoy using my creativity to create beautiful, simple solutions to complex problems. I 
+        graduated from Texas A&M University with a B.S. in Mechanical Engineering, and am a recent 
+        graduate from the University of Texas at Austin Full Stack Coding Bootcamp. I am excited to get a 
+        running start in my career as a web developer!
       </div>
     </div>
   )

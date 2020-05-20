@@ -4,12 +4,20 @@
   height: 100vh;
 }
 
+.about-page {
+  bottom: 10px;
+}
+
+.skills {
+  font-family: 'Muli', sans-serif;
+  font-weight: 800;
+}
+
 .about-text {
   width: 70%;
   font-family: 'Muli', sans-serif;
 }
 
 .picture-me {
-  height: 250px;
-  width: 250px;
+  height: 200px;
 }
