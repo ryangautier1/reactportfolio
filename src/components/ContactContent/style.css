@@ -1,0 +1,10 @@
+.contact-content {
+  width: calc(100vw - 160px);
+  margin-left: 160px;
+  height: 100vh;
+}
+
+.contact-text {
+  width: 70%;
+  font-family: 'Muli', sans-serif;
+}
