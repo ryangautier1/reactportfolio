@@ -22,11 +22,11 @@
 
 /* Handle */
 .project-slider::-webkit-scrollbar-thumb {
-  background: #4eebe3; 
+  background: #e2e8f0; 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 .project-slider::-webkit-scrollbar-thumb:hover {
-  background: #37b8b1; 
+  background: #d4d9e0; 
 }
