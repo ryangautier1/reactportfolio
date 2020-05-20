@@ -37,9 +37,9 @@ nav {
     width: unset;
     padding: 0 10px;
   }
+
   .nav-item:hover {
     border-left: 0px;
     border-bottom: 4px solid #f7fafc;
-
   }
 }

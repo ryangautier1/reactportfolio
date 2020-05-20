@@ -21,3 +21,16 @@
 .picture-me {
   height: 200px;
 }
+
+@media screen and (max-width: 840px) {
+  .picture-me {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-content {
+    width: 100vw;
+    margin-left: 0;
+  }
+}
