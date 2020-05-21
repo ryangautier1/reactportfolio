@@ -8,8 +8,8 @@ function ProjectCard(props) {
           <div className="w-full p-3 bg-gray-300 rounded-lg card-block">
             <img src={props.image} alt={props.alt} />
             <div>
-              <h5 className="text-xl py-2">{props.title}</h5>
-              <p className="text-md">{props.description}</p>
+              <h5 className="sm:text-xl text-lg py-2">{props.title}</h5>
+              <p className="sm:text-md text-sm">{props.description}</p>
             </div>
           </div>
         </a>

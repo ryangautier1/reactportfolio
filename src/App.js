@@ -5,10 +5,12 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
   return (
+    <div>
     <Router>
       <div>
         <Navbar/>
@@ -28,6 +30,8 @@ function App() {
         </Switch>
       </div>
     </Router>
+    <Footer/>
+    </div>
   );
 }
 

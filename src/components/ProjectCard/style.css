@@ -5,3 +5,9 @@
 .card-block {
   min-height: 425px;
 }
+
+@media screen and (max-width: 640px) {
+  .card-block {
+    min-height: 385px;
+  }
+}

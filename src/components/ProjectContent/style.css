@@ -5,7 +5,7 @@
 }
 
 .project-page {
-  padding-top: 30px;
+  height: 100vh;
 }
 
 
@@ -35,5 +35,9 @@
   .project-slider {
     width: 100vw;
     margin-left: 1rem;
-  }  
+  }
+  .project-page {
+    padding-top: 7rem;
+    height: unset;
+}
 }
