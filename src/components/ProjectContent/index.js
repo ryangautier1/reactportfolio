@@ -4,7 +4,7 @@ import dog from "../../images/dog.png";
 import w4 from "../../images/w4logo.png";
 import orca from "../../images/orca.png";
 import weather from "../../images/weather.png";
-import workday from "../../images/workdayscheduler.png";
+import googlebook from "../../images/googlebook.png";
 import ProjectCard from "../ProjectCard";
 
 const projects = [
@@ -28,6 +28,15 @@ const projects = [
   },
   {
     key: 3,
+    title: "React Google Book Search",
+    image: googlebook,
+    alt: "Google book search screenshot",
+    description: "An application for searching and storing books. Built with React, MongoDB, Express, deployed through Heroku. ",
+    deployed: "https://protected-badlands-39273.herokuapp.com/",
+    repo: "https://github.com/ryangautier1/GoogleBookSearch"
+  },
+  {
+    key: 4,
     title: "Avoid the Orcas",
     image: orca,
     alt: "Avoid the Orcas Logo",
@@ -36,7 +45,7 @@ const projects = [
     repo: "https://github.com/ryangautier1/AvoidTheOrcas"
   },
   {
-    key: 4,
+    key: 5,
     title: "Read Me Generator",
     image: "https://github.com/ryangautier1/Readme-Generator/raw/master/ImplementationGif.gif",
     alt: "Read Me Gnereator GIF",
@@ -45,28 +54,20 @@ const projects = [
     repo: "https://github.com/ryangautier1/Readme-Generator"
   },
   {
-    key: 5,
+    key: 6,
     title: "Weather Dashboard",
     image: weather,
     alt: "Weather Dahsboard Screenshot",
     description: "Easily find current weather conditions and forecasts for your city of choice.",
     deployed: "https://ryangautier1.github.io/06-Weather-Dashboard/",
     repo: "https://github.com/ryangautier1/06-Weather-Dashboard"
-  },
-  {
-    key: 6,
-    title: "Work Day Scheduler",
-    image: workday,
-    alt: "Work Day Scheduler Screenshot",
-    description: "Save and track your daily tasks.",
-    deployed: "https://ryangautier1.github.io/05-Work-Day-Scheduler/",
-    repo: "https://github.com/ryangautier1/05-Work-Day-Scheduler"
   }
 
 ]
 
 function ProjectContent() {
   return (
+
     <div className="flex project-page items-center">
       <div className="relative flex flex-row overflow-x-auto project-slider mx-4">
         {projects.map(item => {
@@ -74,7 +75,8 @@ function ProjectContent() {
             <ProjectCard {...item} />
           )
         })}
-    </div>
+      </div>
+
     </div>
   )
 }

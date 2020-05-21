@@ -1,17 +1,7 @@
 .project-card {
-  width: 275px;
+  width: 225px;
 }
 
 .card-block {
-  min-height: 400px;
-}
-
-@media screen and (max-width: 640px){
-  .project-card {
-    width: 225px;
-  }
-  
-  .card-block {
-    min-height: 350px;
-  }
+  min-height: 425px;
 }

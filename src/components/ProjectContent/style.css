@@ -5,7 +5,7 @@
 }
 
 .project-page {
-  height: 100vh;
+  padding-top: 30px;
 }
 
 
@@ -34,6 +34,6 @@
 @media screen and (max-width: 640px) {
   .project-slider {
     width: 100vw;
-    margin-left: 0;
+    margin-left: 1rem;
   }  
 }
