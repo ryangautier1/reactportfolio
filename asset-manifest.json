@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.d1bb05ab.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.a79df737.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.a79df737.chunk.js.map",
+    "runtime-main.js": "/reactportfolio/static/js/runtime-main.7fc34ab9.js",
+    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.7fc34ab9.js.map",
+    "static/js/2.ebdb10fa.chunk.js": "/reactportfolio/static/js/2.ebdb10fa.chunk.js",
+    "static/js/2.ebdb10fa.chunk.js.map": "/reactportfolio/static/js/2.ebdb10fa.chunk.js.map",
+    "index.html": "/reactportfolio/index.html",
+    "precache-manifest.274952f465edc4c34dc8dfc093edd7b9.js": "/reactportfolio/precache-manifest.274952f465edc4c34dc8dfc093edd7b9.js",
+    "service-worker.js": "/reactportfolio/service-worker.js",
+    "static/css/main.d1bb05ab.chunk.css.map": "/reactportfolio/static/css/main.d1bb05ab.chunk.css.map",
+    "static/js/2.ebdb10fa.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.ebdb10fa.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/reactportfolio/static/media/projectpage.cd99b956.jpg",
+    "static/media/dog.png": "/reactportfolio/static/media/dog.0e3b6b14.png",
+    "static/media/googlebook.png": "/reactportfolio/static/media/googlebook.7b42b18b.png",
+    "static/media/ryanpicturesquare.png": "/reactportfolio/static/media/ryanpicturesquare.1b89fd3d.png",
+    "static/media/w4logo.png": "/reactportfolio/static/media/w4logo.d86cb8da.png",
+    "static/media/weather.png": "/reactportfolio/static/media/weather.1a6aa3ad.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fc34ab9.js",
+    "static/js/2.ebdb10fa.chunk.js",
+    "static/css/main.d1bb05ab.chunk.css",
+    "static/js/main.a79df737.chunk.js"
+  ]
+}
