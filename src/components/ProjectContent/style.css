@@ -30,3 +30,10 @@
 .project-slider::-webkit-scrollbar-thumb:hover {
   background: #d4d9e0; 
 }
+
+@media screen and (max-width: 640px) {
+  .project-slider {
+    width: 100vw;
+    margin-left: 0;
+  }  
+}
