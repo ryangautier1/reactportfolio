@@ -3,7 +3,7 @@
   background-color: #333;
   height: 100vh;
   min-width: 100%;
-  overflow: hidden;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -12,7 +12,7 @@
   background-color: #333;
   height: 100vh;
   min-width: 100%;
-  overflow: hidden;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -20,8 +20,8 @@
   background-image: url("../../images/aboutpage.jpg");
   background-color: #333;
   height: 100vh;
+  background-attachment: fixed;
   min-width: 100%;
-  overflow: hidden;
   background-size: cover;
 }
 
@@ -30,6 +30,6 @@
   background-color: #333;
   height: 100vh;
   min-width: 100%;
-  overflow: hidden;
+  background-attachment: fixed;
   background-size: cover;
 }
